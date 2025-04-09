@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    * {
+     
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header, footer {
+      background-color: black;
+      color: white;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .main {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+    }
+
+    aside {
+      background-color: aqua;
+      padding: 5px;
+      width: 250px;
+      min-width: 200px;
+    }
+
+    main {
+      flex: 1;
+      background-color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .box {
+      background-color: white;
+      width: 300px;
+      text-align: center;
+      border: 1px solid black;
+      color: aqua;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Header Example</h1>
+  </header>
+
+  <div class="main">
+    <aside>
+      <h2>Sidebar</h2>
+      <p>Sidebar Details</p>
+    </aside>
+
+    <main>
+      <div class="box">Hello </div>
+      <div class="box">Hello</div>
+      <div class="box">Hello</div>
+    </main>
+  </div>
+
+  <footer>
+    <p>Footer Example</p>
+  </footer>
+
+</body>
+</html>

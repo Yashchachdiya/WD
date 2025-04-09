@@ -1,0 +1,22 @@
+#Form {
+    background-color: aqua; 
+    padding: 20px;
+    width: 400px;
+    margin: 50px;
+}
+.input {
+    color: aquamarine;
+    background-color: blueviolet;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+#submitBtn:hover {
+    background-color: #0056b3;
+}
